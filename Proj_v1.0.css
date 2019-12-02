@@ -1,0 +1,62 @@
+body {
+  margin: 40px;
+}
+
+    .MainSection {
+        display: grid;
+    gap: 10px;
+        grid-template-columns: 150px 100px 150px 100px ;
+        grid-template-rows: repeat(3,minmax(100px,auto));
+        background-color: #fff;
+        color: tomato;
+    }
+
+    .box {
+        background-color: tomato;
+        color: black;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 150%;
+
+    }
+
+    .box .box {
+        background-color: #ccc;
+        color: #444;
+    }
+
+    .Header {
+        grid-column: 1 / 4;
+    }
+
+    .Logo {
+        grid-column: 4 ;
+    }
+
+    .Sidebar{
+      grid-column: 1;
+    grid-row: 2 / 4;
+    }
+
+    .PokeData{
+    grid-column: 2 / 5;
+    grid-row: 2 / 4;
+        display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: subgrid;
+    }
+
+    .Poke1 {
+        grid-row: 1;
+    grid-column: 1;
+    }
+
+    .Poke2 {
+        grid-row: 1;
+    grid-column: 2;
+    }
+
+    .Poke3 {
+        grid-row: 1;
+    grid-column: 3;
+    }
