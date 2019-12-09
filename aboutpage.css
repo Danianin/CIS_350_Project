@@ -1,0 +1,129 @@
+.topnav{
+	position: relative;
+	top: 0px;
+	background-color: white;
+	width: auto;
+}
+.nav{
+	color: olive;
+	width: 100%;
+	overflow: auto;
+	height: auto;
+	position: relative;
+	top: 0px;
+	font-size: xx-large;
+}
+button{
+	color: olive;
+	width: Auto;
+	height: Auto;
+	font-size: xx-large;
+	text-align: center;
+}
+.homeButton{
+	color: black;
+	background-color: blue;
+}
+.typeButton{
+	color: black;
+	background-color: red;
+}
+.aboutButton{
+	color: black;
+	background-color: yellow;
+}
+body{
+	background-color: tomato;
+}
+
+@media screen and (max-width: 1120px) {
+	.topnav{
+	position: relative;
+	top: 0px;
+	background-color: white;
+	}
+	.nav{
+		color: olive;
+		width: 100%;
+		overflow: auto;
+		height: auto;
+		position: relative;
+		top: 0px;
+		font-size: xx-large;
+	}
+	button{
+		color: olive;
+		width: auto;
+		height: auto;
+		font-size: large;
+		text-align: center;
+	}
+	.homeButton{
+		color: black;
+		background-color: blue;
+	}
+	.typeButton{
+		color: black;
+		background-color: tomato;
+	}
+	.aboutButton{
+		color: black;
+		background-color: yellow;
+	}
+	body {
+		background-color: tomato;
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.topnav{
+	position: relative;
+	top: 0px;
+	background-color: white;
+	}
+	.nav{
+		color: olive;
+		width: 100%;
+		overflow: auto;
+		height: auto;
+		position: relative;
+		top: 0px;
+		font-size: xx-large;
+	}
+	button{
+		color: olive;
+		width: auto;
+		height: auto;
+		font-size: medium;
+		text-align: center;
+	}
+	.homeButton{
+		color: black;
+		background-color: blue;
+	}
+	.typeButton{
+		color: black;
+		background-color: red;
+	}
+	.aboutButton{
+		color: black;
+		background-color: yellow;
+	}
+	body {
+		background-color: tomato;
+		font-size: 12px;
+	}
+}
+
+
+h2{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+p{
+	font-size: 20px;
+	font-family: courier new;
+	width: 50%
+}
