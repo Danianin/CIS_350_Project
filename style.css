@@ -16,13 +16,17 @@ body {
     flex-direction: column;  /*places the left and right headers above the bottom content*/
 }
 
+#right{
+    flex-grow: 5;
+}
+
 #left {
     flex-shrink: 0;  /*makes sure that content is not cut off in a smaller browser window*/
-    background-color: tomato;
 }
 
 .top-left {
     flex-shrink: 0;
+    padding: 10px;
     background-color: gray;
 }
 
@@ -30,6 +34,7 @@ body {
     flex-shrink: 0;
     display: inline-flex;
     background-color: gray;
+    padding: 10px;
 }
 
 ul {
@@ -40,13 +45,13 @@ ul {
 .content {
     flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
     overflow-y: auto;  /*adds scroll to this container*/
-    background-color: orange;
-
+    background-color: lightgrey;
+    padding: 10px;
 }
 
 .bottom {
     flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
     overflow-y: auto;  /*adds scroll to this container*/
     background-color: tomato;
-
+    padding: 10px;
 }
