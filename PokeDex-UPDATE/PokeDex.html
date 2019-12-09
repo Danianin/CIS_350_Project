@@ -1,0 +1,363 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	    <div id="left" class="column">
+	        <div class="top-left">This is Header1</div>
+	        <div class="bottom">
+			
+				<div class="box Logo">*Insert Logo Here*</div>
+				<div class="box Sidebar">Sidebar
+					<div  class="topnav">
+						<nav class="nav">
+							<button id="HB" class= "HB">
+							Home
+							</button>
+							<button id="TB" class= "TB">
+							Type
+							</button>
+							<button id="AB" class= "AB">
+							About Us
+							</button>
+						</nav>
+						<hr>
+					</div>
+				</div>
+			</div>
+	    </div>
+	    <div id="right" class="column">
+	        <div class="top-right">This is Header2</div>
+			<div id="HOME">
+					<div class="box Header">
+						<input type="text" id="pokemon" placeholder="Search..">
+						<button type="button" class="btn">Click me!</button>
+					</div>
+	        		<div id="ContentID" class="content">This is where the Main Content is going to be held</div>
+				<br />
+			</div>
+		</div>
+	</div>
+	<div id="TYPES">
+		<h1>Pokemon Types</h1>
+		<div class="stacking">
+			<!--FIRE-->
+			<nav class="dropdown">
+				<button onclick="fireFunction()" class="dropbtn" id="fire">FIRE</button>
+				<ul id="fireDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="charizardFunction()" class="dropbtn">CHARIZARD</button>
+						<ul id="charizardDropdown" class="dropdown-content">
+							<li><a>Health: 78</a></li>
+							<li><a>Attack: 84</a></li>
+							<li><a>Defense: 78</a></li>
+							<li><a>Sp. Attack: 109</a></li>
+							<li><a>Sp. Defense: 85</a></li>
+							<li><a>Speed: 100</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--GRASS-->
+			<nav class="dropdown">
+				<button onclick="grassFunction()" class="dropbtn">GRASS</button>
+				<ul id="grassDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="venusaurFunction()" class="dropbtn">VENUSAUR</button>
+						<ul id="venusaurDropdown" class="dropdown-content">
+							<li><a>Health: 80</a></li>
+							<li><a>Attack: 82</a></li>
+							<li><a>Defense: 83</a></li>
+							<li><a>Sp. Attack: 100</a></li>
+							<li><a>Sp. Defense: 100</a></li>
+							<li><a>Speed: 80</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--WATER-->
+			<nav class="dropdown">
+				<button onclick="waterFunction()" class="dropbtn">WATER</button>
+				<ul id="waterDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="blastoiseFunction()" class="dropbtn">BLASTOISE</button>
+						<ul id="blastoiseDropdown" class="dropdown-content">
+							<li><a>Health: 79</a></li>
+							<li><a>Attack: 83</a></li>
+							<li><a>Defense: 100</a></li>
+							<li><a>Sp. Attack: 85</a></li>
+							<li><a>Sp. Defense: 105</a></li>
+							<li><a>Speed: 78</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--NORMAL-->
+			<nav class="dropdown">
+				<button onclick="normalFunction()" class="dropbtn">NORMAL</button>
+				<ul id="normalDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="eeveeFunction()" class="dropbtn">EEVEE</button>
+						<ul id="eeveeDropdown" class="dropdown-content">
+							<li><a>Health: 55</a></li>
+							<li><a>Attack: 55</a></li>
+							<li><a>Defense: 50</a></li>
+							<li><a>Sp. Attack: 45</a></li>
+							<li><a>Sp. Defense: 65</a></li>
+							<li><a>Speed: 55</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--BUG-->
+			<nav class="dropdown">
+				<button onclick="bugFunction()" class="dropbtn">BUG</button>
+				<ul id="bugDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="beedrillFunction()" class="dropbtn">BEEDRILL</button>
+						<ul id="beedrillDropdown" class="dropdown-content">
+							<li><a>Health: 65</a></li>
+							<li><a>Attack: 90</a></li>
+							<li><a>Defense: 40</a></li>
+							<li><a>Sp. Attack: 40</a></li>
+							<li><a>Sp. Defense: 80</a></li>
+							<li><a>Speed: 75</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--ELECTRIC-->
+			<nav class="dropdown">
+				<button onclick="electricFunction()" class="dropbtn">ELECTRIC</button>
+				<ul id="electricDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="pikachuFunction()" class="dropbtn">PIKACHU</button>
+						<ul id="pikachuDropdown" class="dropdown-content">
+							<li><a>Health: 35</a></li>
+							<li><a>Attack: 55</a></li>
+							<li><a>Defense: 40</a></li>
+							<li><a>Sp. Attack: 50</a></li>
+							<li><a>Sp. Defense: 50</a></li>
+							<li><a>Speed: 90</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--ROCK-->
+			<nav class="dropdown">
+				<button onclick="rockFunction()" class="dropbtn">ROCK</button>
+				<ul id="rockDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="onixFunction()" class="dropbtn">ONIX</button>
+						<ul id="onixDropdown" class="dropdown-content">
+							<li><a>Health: 35</a></li>
+							<li><a>Attack: 45</a></li>
+							<li><a>Defense: 160</a></li>
+							<li><a>Sp. Attack: 30</a></li>
+							<li><a>Sp. Defense: 45</a></li>
+							<li><a>Speed: 70</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--GROUND-->
+			<nav class="dropdown">
+				<button onclick="groundFunction()" class="dropbtn">GROUND</button>
+				<ul id="groundDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="golemFunction()" class="dropbtn">GOLEM</button>
+						<ul id="golemDropdown" class="dropdown-content">
+							<li><a>Health: 80</a></li>
+							<li><a>Attack: 120</a></li>
+							<li><a>Defense: 130</a></li>
+							<li><a>Sp. Attack: 55</a></li>
+							<li><a>Sp. Defense: 65</a></li>
+							<li><a>Speed: 45</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--FLYING-->
+			<nav class="dropdown">
+				<button onclick="flyingFunction()" class="dropbtn">FLYING</button>
+				<ul id="flyingDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="pidgeotFunction()" class="dropbtn">PIDGEOT</button>
+						<ul id="pidgeotDropdown" class="dropdown-content">
+							<li><a>Health: 83</a></li>
+							<li><a>Attack: 80</a></li>
+							<li><a>Defense: 75</a></li>
+							<li><a>Sp. Attack: 70</a></li>
+							<li><a>Sp. Defense: 70</a></li>
+							<li><a>Speed: 101</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--GHOST-->
+			<nav class="dropdown">
+				<button onclick="ghostFunction()" class="dropbtn">GHOST</button>
+				<ul id="ghostDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="gengarFunction()" class="dropbtn">GENGAR</button>
+						<ul id="gengarDropdown" class="dropdown-content">
+							<li><a>Health: 60</a></li>
+							<li><a>Attack: 65</a></li>
+							<li><a>Defense: 60</a></li>
+							<li><a>Sp. Attack: 130</a></li>
+							<li><a>Sp. Defense: 75</a></li>
+							<li><a>Speed: 110</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--DARK-->
+			<nav class="dropdown">
+				<button onclick="darkFunction()" class="dropbtn">DARK</button>
+				<ul id="Dropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="noneFunction()" class="dropbtn">GENGAR</button>
+						<ul id="noneDropdown" class="dropdown-content">
+							<li><a>NONE</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--POISON-->
+			<nav class="dropdown">
+				<button onclick="poisonFunction()" class="dropbtn">POISON</button>
+				<ul id="poisonDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="nidokingFunction()" class="dropbtn">NIDOKING</button>
+						<ul id="nidokingDropdown" class="dropdown-content">
+							<li><a>Health: 81</a></li>
+							<li><a>Attack: 102</a></li>
+							<li><a>Defense: 77</a></li>
+							<li><a>Sp. Attack: 85</a></li>
+							<li><a>Sp. Defense: 75</a></li>
+							<li><a>Speed: 85</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--PSYCHIC-->
+			<nav class="dropdown">
+				<button onclick="psychicFunction()" class="dropbtn">PSYCHIC</button>
+				<ul id="psychicDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="alakazamFunction()" class="dropbtn">ALAKAZAM</button>
+						<ul id="alakazamDropdown" class="dropdown-content">
+							<li><a>Health: 55</a></li>
+							<li><a>Attack: 50</a></li>
+							<li><a>Defense: 45</a></li>
+							<li><a>Sp. Attack: 135</a></li>
+							<li><a>Sp. Defense: 95</a></li>
+							<li><a>Speed: 120</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--FAIRY-->
+			<nav class="dropdown">
+				<button onclick="fairyFunction()" class="dropbtn">FAIRY</button>
+				<ul id="fairyDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="clefableFunction()" class="dropbtn">CLEFABLE</button>
+						<ul id="clefableDropdown" class="dropdown-content">
+							<li><a>Health: 95</a></li>
+							<li><a>Attack: 70</a></li>
+							<li><a>Defense: 73</a></li>
+							<li><a>Sp. Attack: 95</a></li>
+							<li><a>Sp. Defense: 90</a></li>
+							<li><a>Speed: 60</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--STEEL-->
+			<nav class="dropdown">
+				<button onclick="steelFunction()" class="dropbtn">STEEL</button>
+				<ul id="steelDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="magnetonFunction()" class="dropbtn">MAGNETON</button>
+						<ul id="magnetonDropdown" class="dropdown-content">
+							<li><a>Health: 50</a></li>
+							<li><a>Attack: 60</a></li>
+							<li><a>Defense: 95</a></li>
+							<li><a>Sp. Attack: 120</a></li>
+							<li><a>Sp. Defense: 70</a></li>
+							<li><a>Speed: 70</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--FIGHTING-->
+			<nav class="dropdown">
+				<button onclick="fightingFunction()" class="dropbtn">FIGHTING</button>
+				<ul id="fightingDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="machampFunction()" class="dropbtn">MACHAMP</button>
+						<ul id="machampDropdown" class="dropdown-content">
+							<li><a>Health: 90</a></li>
+							<li><a>Attack: 130</a></li>
+							<li><a>Defense: 80</a></li>
+							<li><a>Sp. Attack: 65</a></li>
+							<li><a>Sp. Defense: 85</a></li>
+							<li><a>Speed: 55</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--ICE-->
+			<nav class="dropdown">
+				<button onclick="iceFunction()" class="dropbtn">ICE</button>
+				<ul id="iceDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="laprasFunction()" class="dropbtn">LAPRAS</button>
+						<ul id="laprasDropdown" class="dropdown-content">
+							<li><a>Health: 130</a></li>
+							<li><a>Attack: 85</a></li>
+							<li><a>Defense: 80</a></li>
+							<li><a>Sp. Attack: 85</a></li>
+							<li><a>Sp. Defense: 95</a></li>
+							<li><a>Speed: 60</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+			<!--DRAGON-->
+			<nav class="dropdown">
+				<button onclick="dragonFunction()" class="dropbtn">DRAGON</button>
+				<ul id="dragonDropdown" class="dropdown-content">
+					<nav class="dropdown">
+						<button onclick="dragoniteFunction()" class="dropbtn">DRAGONITE</button>
+						<ul id="dragoniteDropdown" class="dropdown-content">
+							<li><a>Health: 91</a></li>
+							<li><a>Attack: 134</a></li>
+							<li><a>Defense: 95</a></li>
+							<li><a>Sp. Attack: 100</a></li>
+							<li><a>Sp. Defense: 100</a></li>
+							<li><a>Speed: 80</a></li>
+						</ul>
+					</nav>
+				</ul>
+			</nav>
+		</div>   
+	</div>
+	<div id="ABOUT">
+		<h1 id="AbHead1">ABOUT US</h1>
+		<h2 id="AbHead2">Welcome to the Online Pokedex!</h2>
+		<p id="AbPar">This website was created by 4 college kids who have been
+		   diligently learning the ins and outs of web design over the
+		   past few months. They decided to create this website to help
+		   express their love for one of their favorite childhood video games,
+		   except for John who never played Pokemon in his youth.</p>
+	</div>
+	
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="PokeDex.js"></script>
+<script src="HideShow.js"></script>
+<script src="TypeFile.js"></script>
